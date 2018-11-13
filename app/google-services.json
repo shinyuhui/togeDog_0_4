@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "558184203743",
+    "firebase_url": "https://togedog-f9e4b.firebaseio.com",
+    "project_id": "togedog-f9e4b",
+    "storage_bucket": "togedog-f9e4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558184203743:android:fd6d14e20bfbd456",
+        "android_client_info": {
+          "package_name": "com.example.yuhui.togedog_0_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558184203743-llhcr3sj3f8ft8rf9qa3j2tk955fgm2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yuhui.togedog_0_4",
+            "certificate_hash": "802695e8a7e8a3db33a58ff315c6d628a1e4f8dc"
+          }
+        },
+        {
+          "client_id": "558184203743-b0qs1d2lhbbsktgu1smnddl4gqkg8fv1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3jGNN1VGCKK442EHlnyWvDECwNxKZeWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558184203743-b0qs1d2lhbbsktgu1smnddl4gqkg8fv1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

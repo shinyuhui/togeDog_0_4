@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/Chat1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8f7a65">
+
+        <Button
+            android:id="@+id/Back_bt"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/backbt"/>
+
+        <TextView
+            android:id="@+id/Room_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#fef4e8"
+            android:layout_marginLeft="30dp"
+            android:text=""
+            android:layout_toRightOf="@id/Back_bt"/>
+        <Button
+            android:id="@+id/Notice_bt"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toLeftOf="@id/Vote_bt"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/noticebt"/>
+
+        <Button
+            android:id="@+id/Vote_bt"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/votebt"
+            android:layout_toLeftOf="@id/Member_bt"/>
+        <Button
+            android:id="@+id/Member_bt"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/membt"
+            android:layout_marginRight="10dp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fef4e8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/Chatedit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent"
+                />
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:background="@drawable/chatbt"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
